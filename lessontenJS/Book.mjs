@@ -62,7 +62,7 @@ export class Book {
 	}
 
 	getArray(array) {
-		let smallestAge = array.map((obj) => obj.age);
+		let smallestAge = array.map(obj => obj.age);
 
 		console.log(Math.min(...smallestAge));
 	}
