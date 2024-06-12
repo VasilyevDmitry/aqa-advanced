@@ -1,17 +1,13 @@
-const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-let newArr =[]
+let newArr = [];
 
-arr.filter(function(number) {
+arr.filter(function (number) {
+	if (number % 2 === 0) {
+		newArr.push(number);
+	}
 
-  if (number % 2 === 0 ){
-
-    newArr.push(number)
-    
-  }
-
-  return newArr
-
+	return newArr;
 });
 
 console.log(newArr);

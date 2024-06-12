@@ -1,9 +1,8 @@
-
 let age = 35;
 
 console.log(age);
 
-const userName = 'Tom';
+const userName = "Tom";
 
 console.log(userName);
 
@@ -19,12 +18,6 @@ const valueOne = null;
 
 console.log(valueOne);
 
-
 const valueTwo = undefined;
 
 console.log(valueTwo);
-
-
-
-
-
